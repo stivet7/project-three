@@ -10,3 +10,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Custom Site Styles */
 
 /* ========== Base Styles ========== */
+
+/* ========== Modular Styles ========== */
+#navigation {
+  
+}
+
+#content {
+  display: flex;
+}
+
+#hcontent {
+  display: flex;
+}
+
+#rcontent {
+  display: flex;
+}
