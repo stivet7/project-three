@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ========== Modular Styles ========== */
 #navigation {
-  
+
 }
 
 #content {
@@ -26,4 +26,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 #rcontent {
   display: flex;
+}
+
+.images {
+
+}
+
+.images img {
+
+}
+
+.images li{
+  
 }
