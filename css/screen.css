@@ -99,16 +99,16 @@ figcaption {
 /* media queries */
 @media screen and (max-width: 600px) {
   html {
-    font-size: 1.4em;
-    padding-right: 2.1em;
+    font-size: 1.4em; /* =22px */
+    padding-right: 2.1em; /* =33px */
     padding-left: 2.1em;
   }
     }
 
  @media screen and (max-width: 800px) {
    html {
-     font-size: 1.6em;
-     padding-right: 2.2em;
+     font-size: 1.6em; /* =25px */
+     padding-right: 2.2em; /* =35px */
      padding-left: 2.2em;
    }
     }
