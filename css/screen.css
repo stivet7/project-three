@@ -7,36 +7,87 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,.reset{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
-section {
+html{
+  background-color: #9B9B9B;
   padding-right: 2.5em;
   padding-left: 2.0em;
-}
-
-body {
-    background-color: #9B9B9B;
+  font-family: monospace;
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   font-weight: bold;
   padding-top: 0.6em;
   padding-bottom: 0.2em;
-
 }
 
-img {
-    width:30%;
-    height: 30%;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
-    padding-right: 0.6em;
-
+h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-top: 0.6em;
+  padding-bottom: 0.2em;
 }
 
 footer {
+  font-size: 0.8em;
   padding-top: 0.6em;
 }
-#navigation {
-  text-align: left;
-  padding-bottom: 0.6em;
+
+p {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+  padding-bottom: 0.3em;
+}
+
+.container {
+  display: grid;
+  width: 80%;
+  height: auto;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-right: 0.6em;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0em;
+}
+
+.responsive {
+    width: 80%;
+    height: auto;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-right: 0.6em;
+}
+
+.responsive1 {
+    width: 100%;
+    height: auto;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-right: 0.6em;
+  }
+
+.responsive2 {
+    display: flex;
+    width: 60%;
+    height: auto;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-right: 0.6em;
+}
+
+@media screen and (max-width: 600px) {
+
+    }
+
+ @media screen and (max-width: 800px) {
+
+    }
