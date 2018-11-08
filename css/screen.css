@@ -7,13 +7,15 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,.reset{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
-html{
+/* set base html style for all pages */
+html {
   background-color: #9B9B9B;
   padding-right: 2.5em;
   padding-left: 2.0em;
   font-family: monospace;
 }
 
+/* h1 text style */
 h1 {
   font-size: 1.8em;
   font-weight: bold;
@@ -21,6 +23,7 @@ h1 {
   padding-bottom: 0.2em;
 }
 
+/* h2 text style */
 h2 {
   font-size: 1.7em;
   font-weight: bold;
@@ -28,22 +31,26 @@ h2 {
   padding-bottom: 0.2em;
 }
 
+/* footer text style */
 footer {
   font-size: 0.8em;
   padding-top: 0.6em;
 }
 
+/* paragraph text style */
 p {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
+/* figcaption text style */
 figcaption {
   font-style: italic;
   font-size: 0.9em;
   padding-bottom: 0.3em;
 }
 
+/* ovw content container style */
 .container {
   display: grid;
   width: 80%;
@@ -53,20 +60,23 @@ figcaption {
   padding-right: 0.6em;
 }
 
+/* collection content container style */
 .container1 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 0em;
 }
 
+/* ovw image style */
 .responsive {
-    width: 80%;
+    width: 60%;
     height: auto;
     padding-top: 0.6em;
     padding-bottom: 0.6em;
     padding-right: 0.6em;
 }
 
+/* collection image style */
 .responsive1 {
     width: 100%;
     height: auto;
@@ -75,6 +85,7 @@ figcaption {
     padding-right: 0.6em;
   }
 
+/* resume image style */
 .responsive2 {
     display: flex;
     width: 60%;
@@ -84,6 +95,7 @@ figcaption {
     padding-right: 0.6em;
 }
 
+/* media queries */
 @media screen and (max-width: 600px) {
 
     }
