@@ -10,22 +10,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* set base html style for all pages */
 html {
   background-color: #9B9B9B;
-  padding-right: 2.5em;
+  padding-right: 2.0em; /* =32px */
   padding-left: 2.0em;
   font-family: monospace;
+  font-size: 1.2em;
 }
 
 /* h1 text style */
 h1 {
-  font-size: 1.8em;
+  font-size: 1.8em; /* =28px */
   font-weight: bold;
-  padding-top: 0.6em;
-  padding-bottom: 0.2em;
+  padding-top: 0.6em; /* =9px */
+  padding-bottom: 0.2em; /* 3px */
 }
 
 /* h2 text style */
 h2 {
-  font-size: 1.7em;
+  font-size: 1.7em; /* =27px */
   font-weight: bold;
   padding-top: 0.6em;
   padding-bottom: 0.2em;
@@ -33,21 +34,21 @@ h2 {
 
 /* footer text style */
 footer {
-  font-size: 0.8em;
+  font-size: 0.8em; /* =12px */
   padding-top: 0.6em;
 }
 
 /* paragraph text style */
 p {
-  padding-top: 0.5em;
+  padding-top: 0.5em; /* =8px */
   padding-bottom: 0.5em;
 }
 
 /* figcaption text style */
 figcaption {
   font-style: italic;
-  font-size: 0.9em;
-  padding-bottom: 0.3em;
+  font-size: 0.9em; /* =14px */
+  padding-bottom: 0.3em; /* =4px */
 }
 
 /* ovw content container style */
@@ -97,9 +98,17 @@ figcaption {
 
 /* media queries */
 @media screen and (max-width: 600px) {
-
+  html {
+    font-size: 1.4;
+    padding-right: 2.1em;
+    padding-left: 2.1em;
+  }
     }
 
  @media screen and (max-width: 800px) {
-
+   html {
+     font-size: 1.6;
+     padding-right: 2.2em;
+     padding-left: 2.2em;
+   }
     }
