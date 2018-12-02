@@ -96,6 +96,27 @@ figcaption {
     padding-right: 0.6em;
 }
 
+.nav a,
+#navigation h2 a {
+  background: #818181;
+  border-radius: 6px;
+  color: white;
+  display: block;
+  line-height: 1;
+  margin: 2px;
+  padding: 1px;
+  text-decoration: none;
+}
+
+/* State Styles */
+.js .nav {
+  display: none;
+}
+.js .nav.visible {
+  display: block;
+}
+
+
 /* media queries */
 @media screen and (max-width: 600px) {
   html {
