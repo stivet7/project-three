@@ -61,11 +61,53 @@ figcaption {
   padding-right: 0.6em;
 }
 
-/* collection content container style */
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
 .container1 {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 0em;
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 /* ovw image style */
@@ -81,9 +123,6 @@ figcaption {
 .responsive1 {
     width: 100%;
     height: auto;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
-    padding-right: 0.6em;
   }
 
 /* resume image style */
@@ -98,14 +137,18 @@ figcaption {
 
 .nav a,
 #navigation h2 a {
-  background: #818181;
+  background: #858585;
   border-radius: 6px;
   color: white;
   display: block;
   line-height: 1;
-  margin: 2px;
-  padding: 1px;
+  margin: 6px;
+  padding: 14px;
   text-decoration: none;
+}
+.nav a:hover,
+a#menu-button:focus {
+  background: #5e5d5d;
 }
 
 /* State Styles */
@@ -116,20 +159,19 @@ figcaption {
   display: block;
 }
 
-
 /* media queries */
 @media screen and (max-width: 600px) {
   html {
     font-size: 1.4em; /* =22px */
-    padding-right: 2.1em; /* =33px */
-    padding-left: 2.1em;
+    padding-right: 1.3em; /* =33px */
+    padding-left: 1.3em;
   }
     }
 
  @media screen and (max-width: 800px) {
    html {
-     font-size: 1.6em; /* =25px */
-     padding-right: 2.2em; /* =35px */
-     padding-left: 2.2em;
+     font-size: 1.4em; /* =25px */
+     padding-right: 1.2em; /* =35px */
+     padding-left: 1.2em;
    }
     }
