@@ -10,8 +10,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* set base html style for all pages */
 html {
   background-color: #9B9B9B;
-  padding-right: 2.0em; /* =32px */
-  padding-left: 2.0em;
+  padding-right: 2em; /* =32px */
+  padding-left: 2em;
   font-family: sans-serif;
   font-size: 1.2em;
 }
@@ -63,67 +63,73 @@ figcaption {
 
 /* grid with equal columns for images */
 .column {
-    float: left;
-    width: 15%;
-    padding: 0.3em;
+  float: left;
+  width: 15%;
+  padding: 0.3em;
 }
 
 /* Style the images inside the grid */
 .column img {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .column img:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* The expanding image container */
 .container1 {
-    position: relative;
-    display: none;
+  position: relative;
+  display: none;
 }
 
 /* closable button inside the image */
 .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 2.1em; /* =35px */
-    cursor: pointer;
+  position: absolute;
+  top: 0.6em;
+  right: 0.9em;
+  color: white;
+  font-size: 2.1em; /* =35px */
+  cursor: pointer;
 }
 
 /* ovw image style */
 .responsive {
-    width: 50%;
-    height: auto;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
-    padding-right: 0.6em;
+  width: 50%;
+  height: auto;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-right: 0.6em;
 }
 
 /* collection image style */
 .responsive1 {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+}
 
 /* resume image style */
 .responsive2 {
-    display: flex;
-    width: 30%;
-    height: auto;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
-    padding-right: 0.6em;
+  display: flex;
+  width: 30%;
+  height: auto;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-right: 0.6em;
+}
+
+/* on hover style */
+.nav a:hover,
+a#menu-button:focus {
+  background: #5e5d5d;
 }
 
 /* drop down menu style*/
@@ -139,11 +145,7 @@ figcaption {
   text-decoration: none;
 }
 
-/* on hover style */
-.nav a:hover,
-a#menu-button:focus {
-  background: #5e5d5d;
-}
+
 
 /* js display styles */
 .js .nav {
@@ -161,29 +163,29 @@ a#menu-button:focus {
     padding-left: 1.3em;
   }
   .container {
-    width: 100%
+    width: 100%;
   }
   .container1 {
-    width: 100%
+    width: 100%;
   }
   .container2 {
-    width: 100%
+    width: 100%;
   }
-    }
+}
 
- @media screen and (max-width: 800px) {
-   html {
-     font-size: 1.4em; /* =25px */
-     padding-right: 1.2em; /* =19px */
-     padding-left: 1.2em;
-   }
-   .container {
-    width: 100%
-   }
-   .container1 {
-    width: 100%
-   }
-   .container2 {
-    width: 100%
-   }
-    }
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 1.4em; /* =25px */
+    padding-right: 1.2em; /* =19px */
+    padding-left: 1.2em;
+  }
+  .container {
+    width: 100%;
+  }
+  .container1 {
+    width: 100%;
+  }
+  .container2 {
+    width: 100%;
+  }
+}
