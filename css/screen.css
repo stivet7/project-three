@@ -26,7 +26,7 @@ h1 {
 
 /* h2 text style */
 h2 {
-  font-size: 1.7em; /* =27px */
+  font-size: 1.6em; /* =25px */
   font-weight: bold;
   padding-top: 0.6em;
   padding-bottom: 0.2em;
@@ -61,7 +61,7 @@ figcaption {
   padding-right: 0.6em;
 }
 
-/* The grid: Four equal columns that floats next to each other */
+/* grid with equal columns for images */
 .column {
     float: left;
     width: 15%;
@@ -78,29 +78,20 @@ figcaption {
     opacity: 1;
 }
 
-/* Clear floats after the columns */
+/* clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* The expanding image container (positioning is needed to position the close button and the text) */
+/* The expanding image container */
 .container1 {
     position: relative;
     display: none;
 }
 
-/* Expanding image text */
-#imgtext {
-    position: absolute;
-    bottom: 0.9em; /* =15px */
-    left: 0.9em;
-    color: white;
-    font-size: 1.2em; /* =20px */
-}
-
-/* Closable button inside the image */
+/* closable button inside the image */
 .closebtn {
     position: absolute;
     top: 10px;
@@ -135,23 +126,26 @@ figcaption {
     padding-right: 0.6em;
 }
 
+/* drop down menu style*/
 .nav a,
 #navigation h2 a {
   background: #858585;
-  border-radius: 0.3em; /* =6px */
+  border-radius: 0.2em; /* =6px */
   color: white;
   display: block;
   line-height: 1;
   margin: 0.3em;
-  padding: 0.8em; /* =14px */
+  padding: 0.2em; /* =3px */
   text-decoration: none;
 }
+
+/* on hover style */
 .nav a:hover,
 a#menu-button:focus {
   background: #5e5d5d;
 }
 
-/* State Styles */
+/* js display styles */
 .js .nav {
   display: none;
 }
