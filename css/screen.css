@@ -61,46 +61,36 @@ figcaption {
   padding-right: 0.6em;
 }
 
-/* grid with equal columns for images */
-.column {
-  float: left;
-  width: 15%;
-  padding: 0.3em;
+.imgbox{
+  width: 720px;
+  margin: 10px auto 10px;
 }
 
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
+.imgbox img{
+  width: 100%;
+  border: 2px solid #fff;
+}
+
+ul.thumb {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.thumb li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+ul.thumb li {
   cursor: pointer;
 }
 
-.column img:hover {
-  opacity: 1;
+ul.thumb li img {
+  border: 2px solid #fff;
 }
-
-/* clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container1 {
-  position: relative;
-  display: none;
-}
-
-/* closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 0.6em;
-  right: 0.9em;
-  color: white;
-  font-size: 2.1em; /* =35px */
-  cursor: pointer;
-}
-
 /* ovw image style */
 .responsive {
   width: 50%;
@@ -144,8 +134,6 @@ a#menu-button:focus {
   padding: 0.2em; /* =3px */
   text-decoration: none;
 }
-
-
 
 /* js display styles */
 .js .nav {

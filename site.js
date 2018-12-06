@@ -27,10 +27,9 @@ menu_button.addEventListener('click', function(e) {
   e.preventDefault();
 });
 
-function myFunction(imgs) {
-  // get the expanded image
-  var expandImg = document.getElementById("expandedImg");
-  expandImg.src = imgs.src;
-  // Show the container element
-  expandImg.parentElement.style.display = "block";
-}
+$(document).ready(function() {
+  $('.thumb a').click(function(e)){
+    e.preventDefault();
+    $('.imgbox img').attr("src", $(this).attr("href"));
+  }
+})
