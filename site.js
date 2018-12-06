@@ -1,3 +1,4 @@
+'use strict';
 // remove the 'nojs' class and add the 'js' class
 var html = document.querySelector('html');
 html.classList.remove('nojs');
@@ -27,9 +28,9 @@ menu_button.addEventListener('click', function(e) {
   e.preventDefault();
 });
 
-$(document).ready(function() {
-  $('.thumb a').click(function(e)){
+$(document).ready(function(){
+  $('.thumb a').click(function(e){
     e.preventDefault();
-    $('.imgbox img').attr("src", $(this).attr("href"));
-  }
+    $('.imgbox img').attr('src', $(this).attr('href'));
+  })
 })

@@ -61,12 +61,12 @@ figcaption {
   padding-right: 0.6em;
 }
 
-.imgbox{
+.imgbox {
   width: 720px;
   margin: 10px auto 10px;
 }
 
-.imgbox img{
+.imgbox img {
   width: 100%;
   border: 2px solid #fff;
 }
@@ -84,12 +84,11 @@ ul.thumb li {
   margin: 0 10px;
 }
 
-ul.thumb li {
-  cursor: pointer;
-}
-
 ul.thumb li img {
   border: 2px solid #fff;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
 }
 /* ovw image style */
 .responsive {
@@ -98,12 +97,6 @@ ul.thumb li img {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
   padding-right: 0.6em;
-}
-
-/* collection image style */
-.responsive1 {
-  width: 100%;
-  height: auto;
 }
 
 /* resume image style */
