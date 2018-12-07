@@ -62,13 +62,13 @@ figcaption {
 }
 
 .imgbox {
-  width: 720px;
-  margin: 10px auto 10px;
+  width: 45em; /* =720px */
+  margin: 0.6em auto 0.6em;
 }
 
 .imgbox img {
   width: 100%;
-  border: 2px solid #fff;
+  border: 0.1em solid #fff; /* =2px */
 }
 
 ul.thumb {
@@ -81,11 +81,11 @@ ul.thumb {
 
 ul.thumb li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 0.6em;
 }
 
 ul.thumb li img {
-  border: 2px solid #fff;
+  border: 0.1em solid #fff;
   cursor: pointer;
   width: 100%;
   height: auto;
