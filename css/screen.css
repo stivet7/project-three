@@ -15,7 +15,6 @@ html {
   font-family: sans-serif;
   font-size: 1.2em;
 }
-
 /* h1 text style */
 h1 {
   font-size: 1.8em; /* =28px */
@@ -23,7 +22,6 @@ h1 {
   padding-top: 0.6em; /* =9px */
   padding-bottom: 0.2em; /* 3px */
 }
-
 /* h2 text style */
 h2 {
   font-size: 1.6em; /* =25px */
@@ -31,26 +29,22 @@ h2 {
   padding-top: 0.6em;
   padding-bottom: 0.2em;
 }
-
 /* footer text style */
 footer {
   font-size: 0.8em; /* =12px */
   padding-top: 0.6em;
 }
-
 /* paragraph text style */
 p {
   padding-top: 0.5em; /* =8px */
   padding-bottom: 0.5em;
 }
-
 /* figcaption text style */
 figcaption {
   font-style: italic;
   font-size: 0.9em; /* =14px */
   padding-bottom: 0.3em; /* =4px */
 }
-
 /* ovw content container style */
 .container {
   display: grid;
@@ -60,17 +54,17 @@ figcaption {
   padding-bottom: 0.6em;
   padding-right: 0.6em;
 }
-
+/* imagebox properties*/
 .imgbox {
   width: 45em; /* =720px */
   margin: 0.6em auto 0.6em;
 }
-
+/* imgbox image style*/
 .imgbox img {
   width: 100%;
   border: 0.1em solid #fff; /* =2px */
 }
-
+/* thumbnail list style*/
 ul.thumb {
   margin: 0 auto;
   padding: 0;
@@ -78,12 +72,12 @@ ul.thumb {
   align-items: center;
   justify-content: center;
 }
-
+/* thumnail list item style*/
 ul.thumb li {
   list-style: none;
   margin: 0 0.6em;
 }
-
+/* thumbnail image style*/
 ul.thumb li img {
   border: 0.1em solid #fff;
   cursor: pointer;
@@ -114,7 +108,6 @@ ul.thumb li img {
 a#menu-button:focus {
   background: #5e5d5d;
 }
-
 /* drop down menu style*/
 .nav a,
 #navigation h2 a {
@@ -127,7 +120,6 @@ a#menu-button:focus {
   padding: 0.2em; /* =3px */
   text-decoration: none;
 }
-
 /* js display styles */
 .js .nav {
   display: none;
@@ -135,8 +127,7 @@ a#menu-button:focus {
 .js .nav.visible {
   display: block;
 }
-
-/* media queries */
+/* media query at 600px */
 @media screen and (max-width: 600px) {
   html {
     font-size: 1.4em; /* =22px */
@@ -153,7 +144,7 @@ a#menu-button:focus {
     width: 100%;
   }
 }
-
+/* media query at 800px */
 @media screen and (max-width: 800px) {
   html {
     font-size: 1.4em; /* =25px */
